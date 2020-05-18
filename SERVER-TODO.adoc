@@ -1,0 +1,19 @@
+= SERVER TODO LIST
+
+== Workshop Maps
+
+- Make aimbotz working : https://steamcommunity.com/sharedfiles/filedetails/?id=243702660
+- Make training_aim_csgo2 working : https://steamcommunity.com/sharedfiles/filedetails/?id=213240871
+
+== BotPlacing
+
+- Make orientation and crouch possible for BotSpawner : https://forums.alliedmods.net/showthread.php?p=2521469
+* bot_crouch
+* bot_mimic
+
+== Sourcemode plugins
+
+- Make get5 working : https://github.com/splewis/get5
+- Make csgo-practice-mode working : https://github.com/splewis/csgo-practice-mode
+- Make csgo-multi-1v1 working : https://github.com/splewis/csgo-multi-1v1
+
