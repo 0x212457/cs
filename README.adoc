@@ -1,0 +1,10 @@
+= Welcome to the 21-24-57 (!$W) GitHub
+
+Here we've got files around our game and Team : CSGO
+
+Useful config file for local and server needs
+
+All local files begin with zz
+All server files begin with ww
+
+Thanks to this : we benefit from a "natural" autocompletion in console since no commands begin with ww or zz :)
