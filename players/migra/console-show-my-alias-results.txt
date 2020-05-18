@@ -1,0 +1,19 @@
+] alias
+Current alias commands:
+zwmb : exec zwmybinds 
+
+rconp : rcon_password <this is secret> 
+
+rcons : rcon status 
+
+wtt : rcon exec wwtt 
+
+wst : connect cs.bl.lc:27016; password <this is secret>
+
+zyd : workshop\1202643420\yprac_dust2.bsp 
+
+zab : map workshop\243702660\aim_botz.bsp 
+
+ztt : exec zztt 
+
+zdd : disconnect;map de_dust2 
