@@ -1,5 +1,8 @@
 = SERVER TODO LIST
 
+== Server (SRCDS)
+Analyse all logs ; see real errors ; solve it
+
 == Workshop Maps
 
 - Make aimbotz working : https://steamcommunity.com/sharedfiles/filedetails/?id=243702660
