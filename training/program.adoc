@@ -1,47 +1,52 @@
 = Programme d'entrainement 21-24-57
 
 * Lundi 18/5/2020 :
-- Training 21h-22h :
-   - 15 min AimBotz (pistols)
-   - 30 min sur mirage (stuffs)
-   - 10 min sur DM pistolonlyHS (serv.)
-   - 5 min saisie des stats
-- Game 22h-23h : MM
+** Training 21h-22h :
+   *** 15 min AimBotz (pistols)
+   *** 30 min sur mirage (stuffs)
+   *** 10 min sur DM pistolonlyHS (serv.)
+   *** 5 min saisie des stats
+** Game 22h-23h :
+   ***MM
 
-Mardi 19/5/2020 :
- Tranning 21h-22h :
-   - 20 min AimBotz (riffle)
-   - 30 min sur D2 (stuffs)
-   - [line-through]#10 min surDM riffle onlyHS (serv.)#
-   - 5 min saisie des stats
- Game 22h-23h : 4V4 sur notre serveur ; map : D2
+* Mardi 19/5/2020 :
+** Tranning 21h-22h :
+   *** 20 min AimBotz (riffle)
+   *** 30 min sur D2 (stuffs)
+   *** 10 min surDM riffle onlyHS (serv.) => ANNULE
+   *** 5 min saisie des stats
+ ** Game 22h-23h :
+   *** 4V4 sur notre serveur ; map : D2
 
-Mercredi 20/5/2020 :
- Tranning 21h-22h :
-   - 20 min AimBotz (snipper)
-   - 30 min sur Inferno (stuffs)
-   - 10 min sur DM snipper (serveur)
-   - 5 min saisie des stats
- Game 22h-23h : MM
+* Mercredi 20/5/2020 :
+ ** Tranning 21h-22h :
+   *** 20 min AimBotz (snipper)
+   *** 30 min sur Inferno (stuffs)
+   *** 10 min sur DM snipper (serveur)
+   *** 5 min saisie des stats
+ ** Game 22h-23h :
+   *** MM
 
-Jeudi, Vendredi, Samedi : no activité.
+* Jeudi, Vendredi, Samedi :
+** no activité (WE de 4 jours)
 
-Dimanche 24/5/2020 :
- Traning 21h-22h :
-   - 25 min AimTrain2 (cibles mobiles (linear and circular)
-   - 30 min sur Cache (stuffs et lignes en T pour prise du B)
-   - 5 min saisie des stats
- Game 22h-23h : MM
+* Dimanche 24/5/2020 :
+ ** Traning 21h-22h :
+   *** 25 min AimTrain2 (cibles mobiles (linear and circular)
+   *** 30 min sur Cache (stuffs et lignes en T pour prise du B)
+   *** 5 min saisie des stats
+ ** Game 22h-23h :
+   *** MM
 
-=> D24/5 post game :
+TIP: 24/5 post game :
   - décision collégiale de passer sur FaceIT tant que possible car nos stuffs passent mal en MM (64 ticks)
   - ressenti moyen sur l'exercice (ultra easy pour certains ; ultra dur pour d'autres)
 
-
-Lundi 25/5/2020 :
-20h45 - 21h00 => présentation des features clés et des alias clés pour notre serveur à 2 nouveaux arrivants
- Training 21h-22h :
-   - 15 min de retrospective sur le train Aim (les contraintes ; ce qui plait ; ce qui ne plait pas ; les propositions de chacun) et nos statistiques
-   - 15 min Aim Botz (SMGs - Spray)
-   - 30 min sur Mirage (stuff)
- Game 22h-23h30 : FaceIT ou en 5v5 sur notre serveur privé
+* Lundi 25/5/2020 :
+  ** 20h45 - 21h00 => présentation des features clés et des alias clés pour notre serveur à 2 nouveaux arrivants
+   ** Training 21h-22h :
+   *** 15 min de retrospective sur le train Aim (les contraintes ; ce qui plait ; ce qui ne plait pas ; les propositions de chacun) et nos statistiques
+   *** 15 min Aim Botz (SMGs - Spray)
+   *** 30 min sur Mirage (stuff)
+ ** Game 22h-23h30 :
+   *** FaceIT ou en 5v5 sur notre serveur privé
