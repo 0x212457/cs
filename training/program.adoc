@@ -1,12 +1,12 @@
 = Programme d'entrainement 21-24-57
 
-Lundi 18/5/2020 :
- Training 21h-22h :
+* Lundi 18/5/2020 :
+- Training 21h-22h :
    - 15 min AimBotz (pistols)
    - 30 min sur mirage (stuffs)
    - 10 min sur DM pistolonlyHS (serv.)
    - 5 min saisie des stats
- Game 22h-23h : MM
+- Game 22h-23h : MM
 
 Mardi 19/5/2020 :
  Tranning 21h-22h :
