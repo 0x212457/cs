@@ -1,54 +1,74 @@
-CONSOLE COMMAND : key_listboundkeys
 
-"0" = "slot9"
-"1" = "slot5"
-"2" = "lastinv"
-"4" = "+jumpthrow"
-"5" = "toggle cl_crosshairsize 0 1000"
-"9" = "+clearsmoke"
-"a" = "slot3"
-"b" = "buymenu"
-"c" = "slot8"
-"d" = "+moveright"
-"e" = "slot2"
-"f" = "slot7"
-"h" = "+lookatweapon"
-"i" = "messagemode"
-"j" = "bot_place"
-"l" = "bot_add_ct;bot_place;bot_mimic 1"
-"m" = "bot_mimic 2;bot_mimic_yaw_offset 0"
-"n" = "bot_add_ct;bot_place"
-"o" = "+spray_menu"
-"p" = "bot_add_ct;bot_place;bot_mimic 1"
-"q" = "+moveleft"
-"r" = "slot1"
-"s" = "+back"
-"u" = "messagemode2"
-"v" = "slot10"
-"w" = "noclip"
-"x" = "slot6"
-"z" = "+forward"
-"'" = "toggleconsole"
-"," = "buyammo1"
-"." = "buyammo2"
-"=" = "give weapon_flashbang"
-"SPACE" = "+reload"
-"TAB" = "+showscores"
-"NUMLOCK" = "pause"
-"ESCAPE" = "cancelselect"
-"PAUSE" = "pause"
-"SHIFT" = "+speed"
-"CTRL" = "+duck"
-"F3" = "askconnect_accept"
-"F5" = "host_framerate .05"
-"F6" = "host_framerate 0"
-"F7" = "cl_sim_grenade_trajectory 10"
-"F8" = "sv_rethrow_last_grenade"
-"F10" = "quit"
-"MOUSE1" = "+attack;r_cleardecals"
-"MOUSE2" = "+attack2"
-"MOUSE3" = "drop"
-"MOUSE4" = "+voicerecord"
-"MOUSE5" = "+use"
-"MWHEELUP" = "+crouchjump"
-"MWHEELDOWN" = "+jump"
+//Will work locally ; won't work on the server (replaced by sourcemod plugin bot spawner on server side)
+//bind l "bot_add_ct;bot_place;bot_mimic 1" // pas nécessaire si je fais //setpos_player
+//bind m "bot_mimic 2;bot_mimic_yaw_offset 0" //place a bot looking where I want ! Flash case :)
+
+//needded for sourcemod plugin bot spawner on server side
+bind p "say_team !bot" //in 212457 server place a bot (thanks to the bat_spawn sourcemod plugin)
+bind k "say_team !nobot" //in 212457 server kill all placed bots (thanks to the bat_spawn sourcemod plugin)
+
+
+//jump throw for nades
+alias "+jumpthrow" "+jump;-attack"
+alias "-jumpthrow" "-jump"
+
+//duck jump to succed
+unbind "MWHEELUP"
+alias +crouchjump "+jump; +duck"
+alias -crouchjump "-duck; -jump"
+
+
+//BDO's section (extract from key_listboundkeys)
+
+bind "0" "slot9"
+bind "1" "slot5"
+bind "2" "+jumpthrow"
+bind "3" "toggle cl_crosshairsize 0 1000" //plus grand viseur pour train les nades
+bind "9" "+clearsmoke"
+bind "a" "slot3"
+bind "b" "buymenu"
+bind "c" "slot8"
+bind "d" "+moveright"
+bind "e" "slot2"
+bind "f" "slot7"
+bind "h" "+lookatweapon"
+bind "i" "messagemode"
+//bind "j" "bot_place"
+//bind "l" "bot_add_ct;bot_place;bot_mimic 1"
+//bind "m" "bot_mimic 2;bot_mimic_yaw_offset 0"
+//bind "n" "bot_add_ct;bot_place"
+bind "o" "+spray_menu"
+//bind "p" = "bot_add_ct;bot_place;bot_mimic 1"
+bind "q" "+moveleft"
+bind "r" "slot1"
+bind "s" "+back"
+bind "u" "messagemode2"
+bind "v" "slot10"
+bind "w" noclip //free to fly on map (sv_cheats = 1)
+bind "x" "slot6"
+bind "z" "+forward"
+bind "'" "toggleconsole"
+bind "SPACE" "+reload"
+bind "TAB" "+showscores"
+bind "NUMLOCK" "pause"
+bind "ESCAPE" "cancelselect"
+bind "PAUSE" "pause"
+bind "SHIFT" "+speed"
+bind "CTRL" "+duck"
+bind "F10" "quit"
+bind "MOUSE1" "+attack;r_cleardecals"
+bind "MOUSE2" "+attack2"
+bind "MOUSE3" "drop"
+bind "MOUSE4" "+voicerecord"
+bind "MOUSE5" "+use"
+bind "MWHEELUP" "+crouchjump"
+bind "MWHEELDOWN" "+jump"
+
+//rcon for server => no rcon locally
+bind f5 "rcon host_framerate .05" //212457-server en tapant F5 le temps s'accélère et la smoke disparait ultra vite
+bind f6 "rcon host_framerate 0" //212457-server en tapant F6 le temps revient à la normale
+bind f7 "cl_sim_grenade_trajectory 10" //simule la trajectoire et le spot d'explosion de la grenade avant lancement
+bind f8 "sv_rethrow_last_grenade" //lance exactement la dernière grenade lancée => permet d'aller la prendre et voir ce que ça fait
+//bind f9 "host_framerate .05" //local : F5 le temps s'accélère et la smoke disparait ultra vite
+//bind f10 "rcon host_framerate 0" //local F6 le temps revient à la normale
+
