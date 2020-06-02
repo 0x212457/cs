@@ -1,0 +1,8 @@
+// update_csgo_ds.txt
+//
+@ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
+@NoPromptForPassword 1
+login dukeportaler <this is secret>
+force_install_dir /home/steam/csgo-servers/212457-1/csgo/
+app_update 740 validate
+quit
