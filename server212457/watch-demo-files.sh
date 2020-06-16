@@ -1,8 +1,5 @@
 #!/bin/bash                                                                              
-
 #This script watch the F/S to detect the end of a demo recording and create the direct download link to get it
-
-#!/bin/bash
 
 CSGOSRV_HOME_DIR=/home/steam/csgo-servers/212457-1/csgo/csgo
 CS_WEB_SITE=/var/www/cs.bl.lc
