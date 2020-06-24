@@ -1,3 +1,4 @@
+key_listboundkeys console command
 
 //Will work locally ; won't work on the server (replaced by sourcemod plugin bot spawner on server side)
 //bind l "bot_add_ct;bot_place;bot_mimic 1" // pas nécessaire si je fais //setpos_player
